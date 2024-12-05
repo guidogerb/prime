@@ -9,4 +9,6 @@ micro_bs = 64 # change this base on the gpu
 batch_size = 512
 warmup_steps = 1000
 total_steps = 15_000
+
+[optim.optim]
 lr = 4e-4
